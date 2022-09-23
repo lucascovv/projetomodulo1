@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2? family= Lora & family= PT+Serif & family= Tiro+Bangla:ital@1 & display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: #6f175f;
+    display: "flex"; /* */
+    flex-direction: row; 
+    align-items: center;
+}
+
+.cabeca{
+    display: flex;
+    flex-direction: center; 
+    align-items: center; 
+    justify-content: center;
+    padding-left: 500px;
+}
+
+
+.rosa{
+    display: flex;
+    flex-direction: row; 
+    padding-left: 280px;
+}
+
+
+.cont-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 450px;
+}
+
+.tarja
+  ul{
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 15px;    
+    font-family: "Sofia", sans-serif;
+    background-color: #f5d208cf;
+    padding: 7px 8px;
+    font-size: 20px;
+    
+}
+.tarja a{
+    color:#6f175f;
+    text-decoration: none;
+}
+.titulo{
+    display:flex;
+    flex-direction: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Sofia", sans-serif; 
+    color:#6f175f;
+
+}
+
+main{
+    background-color: #f3dff0;
+
+}
+    
+
+.pessoa{ 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap:100px;
+   
+}
+.descrição{
+    font-family: 'Lora', serif;
+    font-size:20px;
+    background: linear-gradient(#ffffff 2%, 5%, #6f175f 65% );
+    color:#f5d208cf;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;   
+}
+
+.foto{
+    width: 350px;
+    margin:20px;
+    margin-left:100px;
+    border-radius: 30px;  
+}
+
+.footer{
+    background-color: #6F175F;
+    color: #F5D208CF;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+
+

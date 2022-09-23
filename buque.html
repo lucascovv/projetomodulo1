@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./buque.css"> <!-- lincando a folha do css-->
+    <script src="./buque.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisianthus - Buquês</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<!-- icone da logo na barra de endereço do site -->
+<link rel="icon" type="imagem/png" href="./Imagens/logocomfundo.png" /> 
+
+
+<body>
+<header>
+    <div class="cabeca">
+        <img class="nome" src="Imagens/seránome.png" width="200px"> 
+        <img class="rosa" src="Imagens/rosa-removebg-preview (2).png" width="200px"> 
+    </div>
+
+    
+             
+     <div class="tarja"> 
+        <ul>
+             <li class="menu"><a href = "./inicio.html">Início</a></li>
+            
+             <li class="menu"><a href = "./quemsomos.html">Quem somos</a></li>
+ 
+             <li class="menu"><a href = "./buque.html">Buquês</a></li>
+ 
+             <li class="menu"><a href = "./nossaequipe.html">Nossa equipe</a></li>
+ 
+            <li class="menu"><a href = "./contato.html">Contato</a></li>
+         </ul>
+     </div>
+
+</header>
+    
+
+<main> 
+
+    <!-- Div para exibir o total dos itens no carrinho -->
+    <div class="informacoes_carrinho">
+        <p>TOTAL: R$ </p>
+        <p id="total_carrinho">0,00</p>
+    </div>
+
+    <div class="botoes_carrinho">
+                        <!-- Chamada de função, com posição na lista como argumento, para adicionar ou remover o item na lista quantidade_itens -->
+                        <button onclick="adicionar(0)">É esse!</button>
+                        <p id="quantidade_0" class="texto_quantidade">0</p>
+                        <button onclick="remover(0)">Nem tanto</button>
+                    </div>
+
+
+    <div class="galeria">
+
+        <div>
+            <img class="buque" src="Imagens/lisianthus2.jpg">
+            <p class="itens-texto">Buquê Lisianthus Rosas e Brancas <br> R$ 978.97</p>
+            <div class="botoes_carrinho">
+                <button onclick="adicionar(0)">É esse!</button>
+                <p id="quantidade_0">0</p>
+
+                <button onclick="remover(0)">É o outro!</button>
+            </div><p></p>
+
+            <div>
+                <img class="buque" src="Imagens/lisianthus3.jpg">
+                <p class="itens-texto">Buquê Elegância<br> R$ 949.99</p>
+                <div class="botoes_carrinho">
+                    <button onclick="adicionar(1)">É esse!</button>
+                    <p id="quantidade_1">0</p>
+                    <button onclick="remover(1)">É o outro!</button>
+                </div>
+
+
+                <div>
+                    <img class="buque" src="Imagens/branco.jpeg">
+                    <p class="itens-texto"> Buquê Sofisticação<br> R$ 719.00</p>
+                    <div class="botoes_carrinho">
+                        <button onclick="adicionar(2)">É esse!</button>
+                        <p id="quantidade_2">0</p>
+                        <button onclick="remover(2)">É o outro!</button>
+                    </div>
+
+                    <div>
+                        <img class="buque" src="Imagens/lilas.jpg">
+                        <p class="itens-texto">Buquê Clássico <br> R$ 827.20</p>
+                        <div class="botoes_carrinho">
+                            <button onclick="adicionar(3)">É esse!</button>
+                            <p id="quantidade_3">0</p>
+                            <button onclick="remover(3)">É o outro!</button>
+                        </div>
+
+                        <div>
+                            <img class="buque" src="Imagens/delicado.jpg">
+                            <p class="itens-texto">Buquê Tendência <br> R$ 510.90</p>
+                            <div class="botoes_carrinho">
+                                <button onclick="adicionar(4)">É esse!</button>
+                                <p id="quantidade_4">0</p>
+                                <button onclick="remover(4)">É o outro!</button>
+                            </div>
+
+
+                            <div>
+                                <img class="buque" src="Imagens/amarelo.jpg">
+                                <p class="itens-texto">Buquê Lisboa<br> R$ 470.89</p>
+                                <div class="botoes_carrinho">
+                                    <button onclick="adicionar(5)">É esse!</button>
+                                    <p id="quantidade_5">0</p>
+                                    <button onclick="remover(5)">É o outro!</button>
+                                </div>
+
+                            <div>
+                                <img class="buque" src="Imagens/angelical.jpg">
+                               <p class="itens-texto">Buquê Verona <br> R$ 918.90</p>
+                               <div class="botoes_carrinho">
+                               <button onclick="adicionar(6)">É esse!</button>
+                               <p id="quantidade_6">0</p>
+                               <button onclick="remover(6)">É o outro!</button>
+                            </div>
+
+                            <div>
+                                <img class="buque" src="Imagens/vintage1.jpg">
+                                <p class="itens-texto">Buquê Angelical <br> R$ 702,00</p>
+                                <div class="botoes_carrinho">
+                                    <button onclick="adicionar(7)">É esse!</button>
+                                    <p id="quantidade_7">0</p>
+                                    <button onclick="remover(7)">É o outro!</button>
+                            </div>
+
+                            <div>
+                                <img class="buque" src="Imagens/vintage2.jpeg">
+                                <p class="itens-texto">Buquê Dream <br> R$ 503,00</p>
+                                <div class="botoes_carrinho">
+                                    <button onclick="adicionar(8)">É esse!</button>
+                                    <p id="quantidade_8">0</p>
+                                    <button onclick="remover(8)">É o outro!</button>
+                            </div>
+
+                            <div>
+                                <img class="buque" src="Imagens/vintage3.jpg">
+                                <p class="itens-texto">Buquê Retrô<br> R$ 534,00</p>
+                                <div class="botoes_carrinho">
+                                    <button onclick="adicionar(9)">É esse!</button>
+                                    <p id="quantidade_9">0</p>
+                                    <button onclick="remover(9)">É o outro!</button>
+                            </div>
+
+                            <div>
+                                <img class="buque" src="Imagens/vintage4.jpg">
+                                <p class="itens-texto">Buquê Suave<br> R$ 325,00</p>
+                                <div class="botoes_carrinho">
+                                    <button onclick="adicionar(10)">É esse!</button>
+                                    <p id="quantidade_10">0</p>
+                                    <button onclick="remover(10)">É o outro!</button>
+                            </div>
+
+                            <div>
+                                <img class="buque" src="Imagens/namedida.jpeg">
+                                <p class="itens-texto">Buquê You<br> R$ 560,00</p>
+                                <div class="botoes_carrinho">
+                                    <button onclick="adicionar(11)">É esse!</button>
+                                    <p id="quantidade_11">0</p>
+                                    <button onclick="remover(11)">É o outro!</button>
+                            </div>
+
+                                 
+     </div>
+
+</main>
+
+<footer> <!-- rodapé-->
+
+
+    <p class="footer"><b>Lisianthus</b></p> 
+    <p class="footer"><b>Sofisticação & Elegância</b></p> 
+    <p class="footer"><b>Since 2005</b></p>  
+</footer> <!-- rodapé-->
+
+
+</body>
+</html>

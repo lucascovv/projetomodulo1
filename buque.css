@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+   
+    background-color: #6F175F;
+   
+}
+
+.cabeca{
+    display: flex;
+    flex-direction: center; 
+    align-items: center; 
+    justify-content: center;
+    padding-left: 500px;
+}
+
+
+.rosa{
+    display: flex;
+    flex-direction: row; 
+    padding-left: 280px;
+}
+
+.tarja
+  ul{
+    
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 15px;    
+    font-family: "Sofia", sans-serif;
+    background-color: #F5D208CF;
+    padding: 7px 8px;
+    font-size: 20px;
+    color: #6F175F;
+}
+
+.tarja a{
+    color: #6F175F;
+    text-decoration: none;
+}
+
+main{
+    background-color: #f3dff0;
+}
+
+
+.buque{
+    margin-top: 20px;
+    scroll-padding-left: 280px;
+    padding-bottom: 20px;
+    width: 333px;
+    height: 350px;
+    border-radius: 70px;
+    align-items: center;
+}
+
+/* Nossos produtos */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f3dff0;
+    border-radius: 5px;
+  }
+
+  .itens-texto{
+    color: #6F175F;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+  }
+
+.botoes_carrinho {
+    display: flex;
+    justify-content: space-between;
+    overflow-y: scroll;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  
+  .informacoes_carrinho {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6F175F;
+    position: fixed;
+    overflow-y: scroll;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+
+.footer{
+    background-color: #6F175F;
+    color: #F5D208CF;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+

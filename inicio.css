@@ -1,0 +1,75 @@
+
+/*comentário no CSS*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #6F175F;
+    display: "flex"; /* */
+    flex-direction: row; 
+    align-items: center;
+}
+
+.cont-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 430px;
+}
+
+.tarja
+  ul{
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 15px;    
+    font-family: "Sofia", sans-serif;
+    background-color: #F5D208CF;
+    padding: 7px 8px;
+    font-size: 20px;
+    color: #6F175F;
+}
+
+.tarja a{
+    color: #6F175F;
+    text-decoration: none;
+}
+
+main{
+    background-color: #f3dff0;
+    margin-top: 20px;
+    font-family: 'Sofia", sans-serif';
+    justify-content: center;
+    list-style: none ;
+}
+
+.banner{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.carrosel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+     }
+
+ img{
+     object-fit: cover;
+}    
+
+.footer{
+    background-color: #6F175F;
+    color: #F5D208CF;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
